@@ -7,10 +7,10 @@
 }
 /* text css above hero image*/
 .hero_title {
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 .hero_desc {
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 .hero-text {
     text-align: center;
@@ -68,10 +68,14 @@
 }
 
 /* spacing on all sections */
-#about, #services, #portfolio, #contact {
+#services, #portfolio {
     margin-top: 4rem;
     padding-top: 4rem;
+
+#about, #contact {
+    margin-top: 2rem;
+    padding-top: 2rem;
 }
-#contact {
-    padding-bottom: 4rem;
+#contacto {
+    padding-bottom: 2rem;
 }
