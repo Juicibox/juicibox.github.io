@@ -105,8 +105,8 @@ h1.transition-in [class^="letter"] {
   opacity: 1;
 }
 
-p {
-  font: 2.75em 'Cinzel', serif;
+#des {
+  font: 1.2em 'Cinzel', serif;
   animation: fadeIn 1s;
   animation-delay: 5s;
   animation-fill-mode: forwards;
