@@ -1,7 +1,7 @@
 /* hero background image */
 .bgimage {
     height:100vh;
-    background: url('images/bann.png');
+    background: #000000;
     background-size:cover;
     position:relative;
 }
@@ -19,6 +19,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    width: 800px;
+    height: 300px;
 }
 
 /* about section image css */
@@ -27,7 +29,7 @@
 }
 
 .navbarDark {
-    background: #484747;
+    background: #000000;
 }
 
 /* services section css */
