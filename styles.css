@@ -1,0 +1,84 @@
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: #000000;
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 3.5rem;
+}
+.hero_desc {
+    font-size: 1.5rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 800px;
+    height: 300px;
+}
+
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+
+.navbarDark {
+    background: #000000;
+}
+
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #1C2163;
+}
+.servicesText:hover {
+    border: 1px solid #1C2163;
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-youtube:hover,.fa-kaggle:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-github:hover {
+    color: #FBF8F8;
+}
+.fab {
+    color: #000000;
+}
+/* footer styling */
+#footer {
+    background-color: #484747;
+    text-align: center;
+}
+
+/* spacing on all sections */
+#services, #portfolio {
+    margin-top: 4rem;
+    padding-top: 4rem;
+
+#about, #contact {
+    margin-top: 2rem;
+    padding-top: 2rem;
+}
+#contacto {
+    padding-bottom: 2rem;
+}
+
