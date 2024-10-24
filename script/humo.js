@@ -12,7 +12,7 @@ var config = {
     PRESSURE_DISSIPATION: 0.8,
     PRESSURE_ITERATIONS: 25,
     CURL: 30,
-    SPLAT_RADIUS: 0.005
+    SPLAT_RADIUS: 0.01
 };
 
 var pointers   = [];
@@ -440,3 +440,20 @@ function m( t ) {
 window.onload = function() {
     m( "h1" );
 };
+
+
+
+
+
+
+
+
+
+
+if (window.innerWidth < 768) {
+    config.TEXTURE_DOWNSAMPLE = 2; // Reduce la calidad en móviles
+}
+
+
+
+
