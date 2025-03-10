@@ -190,3 +190,10 @@ footer {
     background-color: #495057;
     transform: scale(1.05);
 }
+
+.card-body img {
+    display: inline-block;
+    margin: 0 auto;
+    width: 36px; /* Ajusta el tamaño */
+    height: 36px;
+}
