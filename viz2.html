@@ -71,11 +71,11 @@
 
      <div id="c" style="position:relative;">
       <button id="open" onclick="fs()" style="position:absolute;bottom:20px;right:10px;z-index:10;background:rgba(255,255,255,0.75);color:#333;border:1px solid #ccc;width:36px;height:36px;border-radius:50%;cursor:pointer;backdrop-filter:blur(4px);">⛶</button>
-      
+      <button id="close" onclick="exitfs()" style="display:none;position:absolute;top:50px;right:10px;z-index:11;background:rgba(255,255,255,0.75);color:#333;border:1px solid #ccc;width:36px;height:36px;border-radius:50%;cursor:pointer;backdrop-filter:blur(4px);">✕</button>
       <iframe src="https://dashgestoresboy.vercel.app/" style="width:100%;height:600px;border:none;"></iframe>
     </div>
     
-    <style>#c:fullscreen { background:#f2f2f2; } #c:fullscreen iframe { width:100%; height:100%; } </style>
+    <style>#c:fullscreen { background:#f2f2f2; } #c:fullscreen iframe { width:100%; height:100%; } #c:-webkit-full-screen iframe { width:100%; height:100%; } #c:-moz-full-screen iframe    { width:100%; height:100%; } #c:-ms-fullscreen iframe      { width:100%; height:100%; } </style>
     
     <script>
     const c = document.getElementById("c"),
