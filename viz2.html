@@ -71,15 +71,25 @@
 
 
     <div id="c" style="position:relative;">
-      <button id="open" onclick="fs()" style="position:absolute;top:10px;right:10px;z-index:10;background:#000;color:#fff;border:none;padding:6px 10px;border-radius:6px;cursor:pointer;">⛶</button>
-      <button id="close" onclick="exitfs()" style="display:none;position:absolute;top:10px;right:10px;z-index:11;background:#fff;color:#000;border:none;padding:6px 10px;border-radius:6px;cursor:pointer;">✕</button>
+      <button id="open" onclick="fs()" style="position:absolute;top:10px;left:10px;z-index:10;background:#000;color:#fff;border:none;padding:6px 10px;border-radius:6px;cursor:pointer;">⛶</button>
+      <button id="close" onclick="exitfs()" style="display:none;position:absolute;top:10px;left:10px;z-index:11;background:#fff;color:#000;border:none;padding:6px 10px;border-radius:6px;cursor:pointer;">✕</button>
     
       <iframe src="https://dashgestoresboy.vercel.app/" 
               style="width:100%;height:600px;border:none;"></iframe>
     </div>
     
     <style>
-    #c:fullscreen { background:#f2f2f2; }
+    #c:fullscreen,
+    #c:-webkit-full-screen,
+    #c:-ms-fullscreen {
+      background:#f2f2f2 !important;
+    }
+    
+    #c:fullscreen iframe,
+    #c:-webkit-full-screen iframe,
+    #c:-ms-fullscreen iframe {
+      height:100vh;
+    }
     </style>
     
     <script>
